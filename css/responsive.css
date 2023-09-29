@@ -1,0 +1,2169 @@
+/*xs*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /*Nav Section CSS Start*/
+    .button_menu{
+        border: 3px solid #fff;
+    }
+  .button_menu i{
+    color: #fff;
+    font-weight: bold;
+    }  
+#nav{
+    background-color: #266d40;
+}
+#main_menu{
+    margin-top: 22px;
+}
+#main_menu ul li a{
+    color: #fff;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+   padding: 16px;
+    text-align: center;
+    font-size: 13px;
+}
+#main_menu ul li:hover a{
+    color: #cfc91d;
+}
+.button_part{
+    text-align: center;
+}
+.btn i{
+    color: #cfc91d;
+   
+}
+
+.test{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+   position: fixed;
+    background-color: #266d40;
+    z-index: 999;
+   transform: scaleX(0);
+    transition: 1s ease;
+    transform-origin: 0;
+}
+.active{
+    transform: scaleX(1);
+}
+.logo_text{
+    margin-top: 20px;
+}
+.logo_text h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+.tree_proces_section_part{
+    margin-top: 32px;
+}
+.prices_list_image{
+    margin-top: 20px;
+    position:relative;
+}
+.prices_list_image img{
+    width: 122px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prices_list_image_overlay{
+    background-color: rgba(57, 108, 67, 0.52);
+    position: absolute;
+    transition: all linear 0.5s;
+    inset: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.prices_list_image:hover .prices_list_image_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.prices_tree_results{
+    margin-top: 32px;
+}
+.prices_tree_results p{
+    font-size: 9px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.prices_eye_tree{
+    margin-top: 7px;
+}
+.prices_eye_tree a i{
+    font-size: 13px;
+    color: #266d40;
+    background-color: #f5f8f5;
+    transition: all linear 0.5s;
+    padding: 4px;
+}
+.prices_eye_tree a:hover i{
+    color: #f5f8f5;
+    background-color: #266d40;
+    border-radius: 5px;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    height: 325px;
+    background-image: url(../img/family-child-planting-tree.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+#banner::before{
+    background-color: rgba(57, 108, 67, 0.52);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    content: '';
+}
+.banner_heading_section{
+    margin-top: 52px;
+}
+.banner_heading h1{
+    line-height: 42px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_heading{
+    margin-top: 72px;
+}
+.about_heading h2{
+    color: #266d40;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.about_paragraph {
+    margin-top: 2px;
+}
+.about_paragraph p{
+    width: 249px;
+    margin: auto;
+    color: #266d40;
+    font-size: 13px;
+}
+.about_section_part{
+    margin-top: 32px;
+}
+.about_tribute_section{
+    width: 100%;
+    background-color: #266d40;
+}
+.about_tribute_content{
+     padding: 52px;
+}
+.about_tribute_paragraph{
+    margin-top: 20px;
+}
+.about_tribute_paragraph p{
+    color: #fff;
+    font-size: 13px;
+}
+.about_tribute_heading{
+    margin-top: 13px;
+}
+.about_tribute_heading h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.about_tribute_link_section{
+    margin-top: 42px;
+}
+/*
+.about_tribute_Start_link{
+    width: 60%;
+}*/
+.about_tribute_Start_link a{
+  /*  width: 60%;*/
+    color: #fff;
+    font-weight: bold;
+    font-size: 9px;
+    padding: 9px;
+    border: 1px solid #fff;
+}
+
+.about_tribute_works_link{
+    margin-left: 13px;
+}
+.about_tribute_works_link  a{
+  /*  width: 50%;*/
+    color: #fff;
+    font-weight: bold;
+    font-size: 9px;
+    transition: all linear 0.5s;
+}
+.about_tribute_works_link:hover a{
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+}
+.about_working_picture img{
+    width: 100%;
+    height: 240px;
+}
+/*//About Section CSS End*/
+/*Features Section CSS Start*/
+.tree_image_border_section_part{
+    margin-top: 32px;
+}
+.tree_image_border{
+    width: 100%;
+    background-color: #f5f8f5;
+   margin: auto;
+    }
+    .image_border{
+        margin-top: 145px;
+    }
+.border{
+    margin-top: 145px;
+}
+.tree_image{
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+}
+.tree_proces_overlay_hover{
+   /* width: 100%;*/
+   height: 644px;
+ background-color: #f8faf9;
+
+  position: absolute;
+  transition: all linear 0.5s;
+  inset: 0;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.tree_image:hover .tree_proces_overlay_hover{
+    visibility: visible;
+    opacity: 1;
+}
+.tree_process_image img{
+    width: 100%;
+}
+.tree_process_img_content{
+    padding: 0;
+}
+.tree_process_content{
+    margin-top: 20px;
+}
+.tree_process_heading h4{
+    font-weight: bold;
+    font-size: 19px;
+    color: #266d40;
+}
+.tree_process_paragraph p{
+   font-size: 11px;
+    width: 243px;
+    margin: auto;
+    color: #266d40;
+}
+.tree_process_pricess_link_section_part{
+    margin-top: 82px;
+}
+
+.tree_prices_numbers p{
+   font-size: 13px;
+     color: #266d40;
+}
+/*
+.tree_process_details_link{
+    margin-left: -58px;
+}*/
+.tree_process_details_link a{
+    font-size: 13px;
+    padding: 7px;
+    color: #266d40;
+    border: 1px solid #266d40;
+    transition: all linear 0.5s;
+}
+.tree_process_details_link:hover a{
+    border: 2px solid #437a57;   
+}
+/*
+.tree_process_order{
+    margin-left: -13px
+}*/
+.tree_process_order a{
+    font-size: 13px;
+    color: #266d40;
+    text-transform: capitalize;
+    transition: all linear 0.5s;
+}
+.tree_process_order:hover a{
+    border-bottom: 1px solid #266d40;
+    display: inline-block;
+}
+/*//Features Section CSS End*/
+/*Blog Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.tree_bloging_image_content_section{
+    width: 100%;
+   margin: auto;
+    background-color: #f8faf9;
+}
+.bloging_content{
+    margin-top: 24px;
+}
+.tree_image_bloging img{
+    width: 100%;
+    height: 198px;
+}
+.tree_bloging_wriiten_content{
+    padding: 7px;
+}
+.tree_image_heading_bloging{
+    margin-top: 9px;
+}
+.tree_image_heading_bloging h2{
+    font-size: 20px;
+    color: #266d40;
+    font-weight: bold;
+}
+.tree_bloging_paragraph{
+    margin-top: 7px;
+}
+.tree_bloging_paragraph p{
+    font-size: 11px;
+    color: #266d40;
+    text-align: justify;
+}
+.tree_bloging_reading_More{
+    margin-top: 20px;
+}
+.tree_bloging_reading_More a{
+    color: #266d40;
+    border: 1px solid #266d40;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all linear 0.5s;
+    padding: 4px;
+}
+.tree_bloging_reading_More:hover a{
+    color: #fff;
+    border-radius: 8px;
+    background-color: #266d40;
+    border: none;
+}
+/*//Blog Section CSS End*/
+/*Contact Section CSS Start*/
+#contact {
+    margin-top: 72px;
+}
+
+.contact_sections_form {
+     background-color: #266d40;
+    padding-bottom: 5px;
+    margin-top: 37px;
+    height: auto;
+}
+.contact_form {
+    margin-top: 32px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8faf9;
+    font-size: 9px;
+   color: #fff;
+   width: 268px;
+  padding-bottom: 9px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 22px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8faf9;
+    font-size: 9px;
+   color: #fff;
+   width: 268px;
+  padding-bottom: 9px;
+}
+.contact_message_form {
+    margin-top: 25px;
+}
+.contact_message_form textarea {width: 300px;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8f5f9;
+    padding-bottom: 16px;
+    font-size: 9px;
+    color: #fff;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 28px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 7px;
+    font-weight: 800;
+    padding: 7px 9px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */.last_section_content p {Font-Size: 12px;
+    font-weight: bold;
+    color: #266d40;
+}
+#last_section {
+    background-color: #fff;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ /*//Last Section CSS End */
+}
+/*sm*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+        /*Nav Section CSS Start*/
+        .button_menu{
+            border: 3px solid #fff;
+        }
+      .button_menu i{
+        color: #fff;
+        font-weight: bold;
+        }  
+    #nav{
+        background-color: #266d40;
+    }
+    #main_menu{
+        margin-top: 22px;
+    }
+    #main_menu ul li a{
+        color: #fff;
+        font-weight: bold;
+        transition: all linear 0.5s;
+        text-transform: uppercase;
+       padding: 19px;
+        text-align: center;
+        font-size: 15px;
+    }
+    #main_menu ul li:hover a{
+        color: #cfc91d;
+    }
+    .button_part{
+        text-align: center;
+    }
+    .btn i{
+        color: #cfc91d;
+       
+    }
+    
+    .test{
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        position: fixed;
+        background-color: #266d40;
+        z-index: 999;
+       transform: scaleX(0);
+        transition: 1s ease;
+        transform-origin: 0;
+    }
+    .active{
+        transform: scaleX(1);
+    }
+    .logo_text{
+        margin-top: 20px;
+    }
+    .logo_text h2{
+        color: #fff;
+        font-weight: bold;
+        font-size: 46px;
+        text-transform: uppercase;
+    }
+    .tree_proces_section_part{
+        margin-top: 32px;
+    }
+    .prices_list_image{
+        margin-top: 20px;
+        position:relative;
+    }
+    .prices_list_image img{
+        width: 122px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .prices_list_image_overlay{
+        background-color: rgba(57, 108, 67, 0.52);
+        position: absolute;
+        transition: all linear 0.5s;
+        inset: 0;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .prices_list_image:hover .prices_list_image_overlay{
+        visibility: visible;
+        opacity: 1;
+    }
+    .prices_tree_results{
+        margin-top: 32px;
+    }
+    .prices_tree_results p{
+        font-size: 9px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .prices_eye_tree{
+        margin-top: 7px;
+    }
+    .prices_eye_tree a i{
+        font-size: 13px;
+        color: #266d40;
+        background-color: #f5f8f5;
+        transition: all linear 0.5s;
+        padding: 4px;
+    }
+    .prices_eye_tree a:hover i{
+        color: #f5f8f5;
+        background-color: #266d40;
+        border-radius: 5px;
+    }
+    /*//Nav Section CSS End*/
+    /*Banner Section CSS Start*/
+    #banner{
+        height: 425px;
+        background-image: url(../img/family-child-planting-tree.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+    }
+    #banner::before{
+        background-color: rgba(57, 108, 67, 0.52);
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        content: '';
+    }
+    .banner_heading_section{
+        margin-top: 52px;
+    }
+    .banner_heading h1{
+        line-height: 62px;
+        font-size: 52px;
+        font-weight: bold;
+        color: #fff;
+    }
+    /*//Banner Section CSS End*/
+    /*About Section CSS Start*/
+.about_heading{
+    margin-top: 72px;
+}
+.about_heading h2{
+    color: #266d40;
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+.about_paragraph {
+    margin-top: 12px;
+}
+.about_paragraph p{
+    width:322px;
+    margin: auto;
+    color: #266d40;
+    font-size: 15px;
+}
+.about_section_part{
+    margin-top: 32px;
+}
+.about_tribute_section{
+    width: 100%;
+    background-color: #266d40;
+}
+.about_tribute_content{
+     padding: 52px;
+}
+.about_tribute_paragraph{
+    margin-top: 20px;
+}
+.about_tribute_paragraph p{
+    color: #fff;
+    font-size: 15px;
+}
+.about_tribute_heading{
+    margin-top: 13px;
+}
+.about_tribute_heading h2{
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+}
+.about_tribute_link_section{
+    margin-top: 42px;
+}
+/*
+.about_tribute_Start_link{
+    width: 60%;
+}*/
+.about_tribute_Start_link a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 13px;
+    border: 1px solid #fff;
+}
+
+.about_tribute_works_link{
+    margin-left: 13px;
+}
+.about_tribute_works_link  a{
+      color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all linear 0.5s;
+}
+.about_tribute_works_link:hover a{
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+}
+.about_working_picture img{
+    width: 100%;
+    height: 240px;
+}
+/*//About Section CSS End*/
+/*Features Section CSS Start*/
+.tree_image_border_section_part{
+    margin-top: 32px;
+}
+.tree_image_border{
+    width: 100%;
+    background-color: #f5f8f5;
+   margin: auto;
+    }
+    .image_border{
+        margin-top: 145px;
+    }
+.border{
+    margin-top: 145px;
+}
+.tree_image{
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.tree_proces_overlay_hover{
+   /* width: 100%;*/
+   height: 784px;
+ background-color: #f8faf9;
+
+  position: absolute;
+  transition: all linear 0.5s;
+  inset: 0;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.tree_image:hover .tree_proces_overlay_hover{
+    visibility: visible;
+    opacity: 1;
+}
+.tree_process_image img{
+    width: 100%;
+}
+.tree_process_img_content{
+    padding: 0;
+}
+.tree_process_content{
+    margin-top: 20px;
+}
+.tree_process_heading h4{
+    font-weight: bold;
+    font-size: 19px;
+    color: #266d40;
+}
+.tree_process_paragraph p{
+   font-size: 11px;
+    width: 243px;
+    margin: auto;
+    color: #266d40;
+}
+.tree_process_pricess_link_section_part{
+    margin-top: 82px;
+}
+
+.tree_prices_numbers p{
+   font-size: 13px;
+     color: #266d40;
+}
+/*
+.tree_process_details_link{
+    margin-left: -58px;
+}*/
+.tree_process_details_link a{
+    font-size: 13px;
+    padding: 7px;
+    color: #266d40;
+    border: 1px solid #266d40;
+    transition: all linear 0.5s;
+}
+.tree_process_details_link:hover a{
+    border: 2px solid #437a57;   
+}
+/*
+.tree_process_order{
+    margin-left: -13px
+}*/
+.tree_process_order a{
+    font-size: 13px;
+    color: #266d40;
+    text-transform: capitalize;
+    transition: all linear 0.5s;
+}
+.tree_process_order:hover a{
+    border-bottom: 1px solid #266d40;
+    display: inline-block;
+}
+/*//Features Section CSS End*/
+/*Blog Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.tree_bloging_image_content_section{
+    width: 100%;
+   margin: auto;
+    background-color: #f8faf9;
+}
+.bloging_content{
+    margin-top: 42px;
+}
+.tree_image_bloging img{
+    width: 100%;
+    height: 298px;
+}
+.tree_bloging_wriiten_content{
+    padding:20px;
+}
+.tree_image_heading_bloging{
+    margin-top: 12px;
+}
+.tree_image_heading_bloging h2{
+    color: #266d40;
+    font-weight: bold;
+}
+.tree_bloging_paragraph{
+    margin-top: 9px;
+}
+.tree_bloging_paragraph p{
+    color: #266d40;
+    text-align: justify;
+}
+.tree_bloging_reading_More{
+    margin-top: 32px;
+}
+.tree_bloging_reading_More a{
+    color: #266d40;
+    border: 1px solid #266d40;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all linear 0.5s;
+    padding: 8px;
+}
+.tree_bloging_reading_More:hover a{
+    color: #fff;
+    border-radius: 8px;
+    background-color: #266d40;
+    border: none;
+}
+/*//Blog Section CSS End*/
+/*Contact Section CSS Start*/
+#contact {
+    padding-top: 72px;
+}
+
+.contact_sections_form {
+    background-color: #266d40;
+    margin-top: 37px;
+    padding-bottom: 8px;
+    height: auto;
+}
+.contact_form {
+    margin-top: 32px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8f5f9;
+font-size: 11px;
+color: #fff;
+width: 409px;
+padding-bottom: 17px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 22px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8f5f9;
+font-size: 11px;
+color: #fff;
+width: 409px;
+padding-bottom: 17px;
+}
+.contact_message_form {
+    margin-top: 32px;
+}
+.contact_message_form textarea {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8f5f9;
+padding-bottom: 16px;
+font-size: 11px;
+color: #fff;
+width: 503px;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 25px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 9px;
+    font-weight: 800;
+    padding: 9px 11px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */
+#last_section {
+    background-color: #fff;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ .last_section_content p {Font-Size: 12px;
+    font-weight: bold;
+     color: #266d40;
+ }
+ /*//Last Section CSS End */
+}
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+            /*Nav Section CSS Start*/
+            .button_menu{
+                border: 3px solid #fff;
+            }
+          .button_menu i{
+            color: #fff;
+            font-weight: bold;
+            }  
+        #nav{
+            background-color: #266d40;
+            }
+        #main_menu{
+            margin-top: 22px;
+        }
+        #main_menu ul li a{
+            color: #fff;
+            font-weight: bold;
+            transition: all linear 0.5s;
+            text-transform: uppercase;
+           padding: 19px;
+            text-align: center;
+            font-size: 15px;
+        }
+        #main_menu ul li:hover a{
+            color: #cfc91d;
+        }
+        .button_part{
+            text-align: center;
+        }
+        .btn i{
+            color: #cfc91d;
+           
+        }
+        
+        .test{
+            height: 100vh;
+            width: 100%;
+            top: 0;
+            position: fixed;
+            background-color: #266d40;
+            z-index: 999;
+           transform: scaleX(0);
+            transition: 1s ease;
+            transform-origin: 0;
+        }
+        .active{
+            transform: scaleX(1);
+        }
+        .logo_text{
+            margin-top: 20px;
+        }
+        .logo_text h2{
+            color: #fff;
+            font-weight: bold;
+            font-size: 46px;
+            text-transform: uppercase;
+        }
+        .tree_proces_section_part{
+            margin-top: 32px;
+        }
+        .prices_list_image{
+            margin-top: 20px;
+            position:relative;
+        }
+        .prices_list_image img{
+            width: 122px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .prices_list_image_overlay{
+            background-color: rgba(57, 108, 67, 0.52);
+            position: absolute;
+            transition: all linear 0.5s;
+            inset: 0;
+            visibility: hidden;
+            opacity: 0;
+        }
+        .prices_list_image:hover .prices_list_image_overlay{
+            visibility: visible;
+            opacity: 1;
+        }
+        .prices_tree_results{
+            margin-top: 32px;
+        }
+        .prices_tree_results p{
+            font-size: 9px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        .prices_eye_tree{
+            margin-top: 7px;
+        }
+        .prices_eye_tree a i{
+            font-size: 13px;
+            color: #266d40;
+            background-color: #f5f8f5;
+            transition: all linear 0.5s;
+            padding: 4px;
+        }
+        .prices_eye_tree a:hover i{
+            color: #f5f8f5;
+            background-color: #266d40;
+            border-radius: 5px;
+        }
+        /*//Nav Section CSS End*/
+        /*Banner Section CSS Start*/
+        #banner{
+            height: 425px;
+            background-image: url(../img/family-child-planting-tree.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            z-index: 1;
+        }
+        #banner::before{
+            background-color: rgba(57, 108, 67, 0.52);
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            content: '';
+        }
+        .banner_heading_section{
+            margin-top: 52px;
+        }
+        .banner_heading h1{
+            line-height: 62px;
+            font-size: 52px;
+            font-weight: bold;
+            color: #fff;
+        }
+        /*//Banner Section CSS End*/
+            /*About Section CSS Start*/
+.about_heading{
+    margin-top: 72px;
+}
+.about_heading h2{
+    color: #266d40;
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+.about_paragraph {
+    margin-top: 12px;
+}
+.about_paragraph p{
+    width:322px;
+    margin: auto;
+    color: #266d40;
+    font-size: 15px;
+}
+.about_section_part{
+    margin-top: 32px;
+}
+.about_tribute_section{
+    width: 100%;
+    background-color: #266d40;
+}
+.about_tribute_content{
+     padding: 52px;
+}
+.about_tribute_paragraph{
+    margin-top: 20px;
+}
+.about_tribute_paragraph p{
+    color: #fff;
+    font-size: 15px;
+}
+.about_tribute_heading{
+    margin-top: 13px;
+}
+.about_tribute_heading h2{
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+}
+.about_tribute_link_section{
+    margin-top: 42px;
+}
+/*
+.about_tribute_Start_link{
+    width: 60%;
+}*/
+.about_tribute_Start_link a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 13px;
+    border: 1px solid #fff;
+}
+
+.about_tribute_works_link{
+    margin-left: 13px;
+}
+.about_tribute_works_link  a{
+      color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all linear 0.5s;
+}
+.about_tribute_works_link:hover a{
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+}
+.about_working_picture img{
+    width: 100%;
+    height: 340px;
+}
+/*//About Section CSS End*/
+/*Features Section CSS Start*/
+.tree_image_border_section_part{
+    margin-top: 32px;
+}
+.tree_image_border{
+    width: 100%;
+    background-color: #f5f8f5;
+   margin: auto;
+    }
+    .image_border{
+        margin-top: 145px;
+    }
+.border{
+    margin-top: 145px;
+}
+.tree_image{
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+ 
+}
+
+.tree_proces_overlay_hover{
+   /* width: 100%;*/
+   height: 984px;
+ background-color: #f8faf9;
+
+  position: absolute;
+  transition: all linear 0.5s;
+  inset: 0;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.tree_image:hover .tree_proces_overlay_hover{
+    visibility: visible;
+    opacity: 1;
+    
+}
+.tree_process_image img{
+    width: 100%;
+}
+.tree_process_img_content{
+    padding: 0;
+}
+.tree_process_content{
+    margin-top: 20px;
+}
+.tree_process_heading h4{
+    font-weight: bold;
+    font-size: 19px;
+    color: #266d40;
+}
+.tree_process_paragraph p{
+   font-size: 11px;
+    width: 243px;
+    margin: auto;
+    color: #266d40;
+}
+.tree_process_pricess_link_section_part{
+    margin-top: 82px;
+}
+
+.tree_prices_numbers p{
+   font-size: 13px;
+     color: #266d40;
+}
+/*
+.tree_process_details_link{
+    margin-left: -58px;
+}*/
+.tree_process_details_link a{
+    font-size: 13px;
+    padding: 7px;
+    color: #266d40;
+    border: 1px solid #266d40;
+    transition: all linear 0.5s;
+}
+.tree_process_details_link:hover a{
+    border: 2px solid #437a57;   
+}
+/*
+.tree_process_order{
+    margin-left: -13px
+}*/
+.tree_process_order a{
+    font-size: 13px;
+    color: #266d40;
+    text-transform: capitalize;
+    transition: all linear 0.5s;
+}
+.tree_process_order:hover a{
+    border-bottom: 1px solid #266d40;
+    display: inline-block;
+}
+/*//Features Section CSS End*/
+/*Blog Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.tree_bloging_image_content_section{
+    width: 100%;
+   margin: auto;
+    background-color: #f8faf9;
+}
+.bloging_content{
+    margin-top: 42px;
+}
+.tree_image_bloging img{
+    width: 100%;
+    height: 298px;
+}
+.tree_bloging_wriiten_content{
+    padding:20px;
+}
+.tree_image_heading_bloging{
+    margin-top: 12px;
+}
+.tree_image_heading_bloging h2{
+    color: #266d40;
+    font-weight: bold;
+}
+.tree_bloging_paragraph{
+    margin-top: 9px;
+}
+.tree_bloging_paragraph p{
+    color: #266d40;
+    text-align: justify;
+}
+.tree_bloging_reading_More{
+    margin-top: 32px;
+}
+.tree_bloging_reading_More a{
+    color: #266d40;
+    border: 1px solid #266d40;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all linear 0.5s;
+    padding: 8px;
+}
+.tree_bloging_reading_More:hover a{
+    color: #fff;
+    border-radius: 8px;
+    background-color: #266d40;
+    border: none;
+}
+/*//Blog Section CSS End*/
+/*Contact Section CSS Start*/
+#contact {
+    padding-top: 72px;
+}
+
+.contact_sections_form {
+     background-color: #266d40;
+    margin-top: 37px;
+    padding-bottom: 9px;
+    height: auto;
+}
+.contact_form {
+    margin-top: 32px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8f5f9;
+   font-size: 13px;
+   color: #fff;
+   width: 550px;
+  padding-bottom: 19px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 22px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8f5f9;
+   font-size: 13px;
+   color: #fff;
+   width: 550px;
+  padding-bottom: 19px;
+}
+.contact_message_form {
+    margin-top: 52px;
+}
+.contact_message_form textarea {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8f5f9;
+    padding-bottom: 16px;
+    font-size: 13px;
+    color: #fff;
+    width: 677px;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 42px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 11px 13px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */ .last_section_content p {Font-Size: 12px;
+    font-weight: bold;
+    color: #266d40;
+}
+#last_section {
+    background-color: #fff;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+
+ /*//Last Section CSS End */
+}
+
+/*lg*/
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+    /*Nav Section CSS Start*/
+#nav{
+    background-color: #266d40;
+}
+#main_menu ul li a{
+    color: #fff;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    padding: 13px;
+    font-size: 14px;
+}
+#main_menu ul li:hover a{
+    color: #cfc91d;
+}
+.btn i{
+    color: #cfc91d; 
+    padding: 13px;
+}
+
+.test{
+    height: 92vh;
+    width: 350px;
+    top: 0;
+    position: fixed;
+    background-color: #266d40;
+    z-index: 999;
+   transform: scaleX(0);
+    transition: 1s ease;
+    transform-origin: 0;
+}
+.active{
+    transform: scaleX(1);
+}
+.logo_text{
+    margin-top: 20px;
+}
+.logo_text h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+.tree_proces_section_part{
+    margin-top: 32px;
+}
+.prices_list_image{
+    margin-top: 20px;
+    position:relative;
+}
+.prices_list_image img{
+    width: 122px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prices_list_image_overlay{
+    background-color: rgba(57, 108, 67, 0.52);
+    position: absolute;
+    transition: all linear 0.5s;
+    inset: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.prices_list_image:hover .prices_list_image_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.prices_tree_results{
+    margin-top: 32px;
+}
+.prices_tree_results p{
+    font-size: 9px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.prices_eye_tree{
+    margin-top: 7px;
+}
+.prices_eye_tree a i{
+    font-size: 13px;
+    color: #266d40;
+    background-color: #f5f8f5;
+    transition: all linear 0.5s;
+    padding: 4px;
+}
+.prices_eye_tree a:hover i{
+    color: #f5f8f5;
+    background-color: #266d40;
+    border-radius: 5px;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background-image: url(../img/family-child-planting-tree.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 704px;
+}
+#banner::before{
+    background-color: rgba(57, 108, 67, 0.52);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    content: '';
+}
+.banner_heading_section{
+    margin-top: 162px;
+}
+.banner_heading h1{
+    line-height: 82px;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_heading{
+    margin-top: 72px;
+}
+.about_heading h2{
+    color: #266d40;
+    font-weight: bold;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+.about_paragraph {
+    margin-top: 15px;
+}
+.about_paragraph p{
+    margin: auto;
+    color: #266d40;
+    font-size: 18px;
+    width: 483px;
+}
+.about_section_part{
+    margin-top: 82px;
+}
+.about_tribute_section{
+   height: 342px;
+    background-color: #266d40;
+}
+.about_tribute_content{
+     padding: 52px;
+}
+.about_tribute_paragraph{
+    margin-top: 20px;
+}
+.about_tribute_paragraph p{
+    color: #fff;
+    font-size: 13px;
+}
+.about_tribute_heading{
+    margin-top: 13px;
+}
+.about_tribute_heading h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.about_tribute_link_section{
+    margin-top: 42px;
+}
+/*
+.about_tribute_Start_link{
+    width: 60%;
+}*/
+.about_tribute_Start_link a{
+  /*  width: 60%;*/
+    color: #fff;
+    font-weight: bold;
+    font-size: 9px;
+    padding: 9px;
+    border: 1px solid #fff;
+}
+
+.about_tribute_works_link{
+    margin-left: 13px;
+}
+.about_tribute_works_link  a{
+  /*  width: 50%;*/
+    color: #fff;
+    font-weight: bold;
+    font-size: 9px;
+    transition: all linear 0.5s;
+}
+.about_tribute_works_link:hover a{
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+}
+.about_working_picture img{
+    height: 342px;
+    width: 100%;
+}
+/*//About Section CSS End*/
+/*Features Section CSS Start*/
+.tree_image_border_section_part{
+    margin-top: 62px;
+}
+.tree_image_border{
+    margin-left: 12px;
+    width: 32%;
+    background-color: #f5f8f5;
+    margin-top: 62px;
+    }
+.border{
+    margin-top: 162px;
+}
+.tree_image{
+    padding: 0px;
+   position: relative;
+    cursor: pointer;
+}
+
+.tree_proces_overlay_hover{
+   height: 482px;
+  background-color: #f8faf9;
+  position: absolute;
+  transition: all linear 0.5s;
+  inset: 0;
+visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+
+.tree_image:hover .tree_proces_overlay_hover{
+    visibility: visible;
+    opacity: 1;
+}
+.tree_process_img_content{
+    padding: 0;
+}
+.tree_process_content{
+    margin-top: 20px;
+}
+.tree_process_heading h4{
+    font-weight: bold;
+    color: #266d40;
+}
+.tree_process_paragraph p{
+    font-size: 11px;
+    width: 243px;
+    margin: auto;
+    color: #266d40;
+}
+.tree_process_pricess_link_section_part{
+    margin-top: 32px;
+}
+.tree_prices_numbers p{
+    color: #266d40;
+}
+.tree_process_details_link a{
+    padding: 7px;
+    color: #266d40;
+    border: 1px solid #266d40;
+    transition: all linear 0.5s;
+}
+.tree_process_details_link:hover a{
+    border: 2px solid #266d40;   
+}
+.tree_process_order a{
+    color: #266d40;
+    text-transform: capitalize;
+    transition: all linear 0.5s;
+}
+.tree_process_order:hover a{
+    border-bottom: 1px solid #266d40;
+    display: inline-block;
+}
+/*//Features Section CSS End*/
+/*Blog Section CSS Start*/
+.blog_section_part{
+    margin-top: 42px;
+}
+.tree_bloging_image_content_section{
+   /* width: 100%;*/
+   margin: auto;
+    background-color: #f8faf9;
+}
+.bloging_content{
+    margin-left: 12px;
+}
+.tree_image_bloging img{
+    width: 100%;
+    height: 198px;
+}
+.tree_bloging_wriiten_content{
+    padding: 7px;
+}
+.tree_image_heading_bloging{
+    margin-top: 9px;
+}
+.tree_image_heading_bloging h2{
+    font-size: 20px;
+    color: #266d40;
+    font-weight: bold;
+}
+.tree_bloging_paragraph{
+    margin-top: 7px;
+}
+.tree_bloging_paragraph p{
+    font-size: 11px;
+    color: #266d40;
+    text-align: justify;
+}
+.tree_bloging_reading_More{
+    margin-top: 20px;
+}
+.tree_bloging_reading_More a{
+    color: #266d40;
+    border: 1px solid #266d40;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all linear 0.5s;
+    padding: 4px;
+}
+.tree_bloging_reading_More:hover a{
+    color: #fff;
+    border-radius: 8px;
+    background-color: #266d40;
+    border: none;
+}
+/*//Blog Section CSS End*/
+/*Contact Section CSS Start*/
+#contact {
+    margin-top: 72px;
+}
+
+.contact_sections_form {
+    background-color: #266d40;
+    margin-top: 67px;
+    height: 650px;
+}
+.contact_form {
+    margin-top: 78px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8faf9;
+    font-size: 16px;
+   color: #fff;
+   width: 668px;
+   /*padding-left: 303px;*/
+  padding-bottom: 30px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 42px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    /*padding-left: 270px;*/
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8faf9;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #fff;
+   width: 668px;
+}
+.contact_message_form {
+    margin-top: 42px;
+}
+.contact_message_form textarea {
+   text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8faf9;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #fff;
+   width: 818px;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 56px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 13px 17px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */.last_section_content p {Font-Size: 12px;
+    font-weight: bold;
+    color: #266d40;
+}
+#last_section {
+    background-color: #fff;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ /*//Last Section CSS End */
+}
+/*xl*/
+@media (min-width: 1200px) and (max-width:1399.98px){
+    /*Nav Section CSS Start*/
+#nav{
+    background-color: #266d40;
+}
+#main_menu ul li a{
+    color: #fff;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    text-transform: uppercase;
+    padding: 15px;
+}
+#main_menu ul li:hover a{
+    color: #cfc91d;
+}
+.btn i{
+    color: #cfc91d; 
+    padding: 15px;
+}
+
+.test{
+    height: 102vh;
+    width: 350px;
+    top: 0;
+   position: fixed;
+    background-color: #266d40;
+    z-index: 999;
+   transform: scaleX(0);
+    transition: 1s ease;
+    transform-origin: 0;
+}
+.active{
+    transform: scaleX(1);
+}
+.logo_text{
+    margin-top: 20px;
+}
+.logo_text h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+.tree_proces_section_part{
+    margin-top: 32px;
+}
+.prices_list_image{
+    margin-top: 20px;
+    position:relative;
+}
+.prices_list_image img{
+    width: 122px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prices_list_image_overlay{
+    background-color: rgba(57, 108, 67, 0.52);
+    position: absolute;
+    transition: all linear 0.5s;
+    inset: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.prices_list_image:hover .prices_list_image_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.prices_tree_results{
+    margin-top: 32px;
+}
+.prices_tree_results p{
+    font-size: 9px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.prices_eye_tree{
+    margin-top: 7px;
+}
+.prices_eye_tree a i{
+    font-size: 13px;
+    color: #266d40;
+    background-color: #f5f8f5;
+    transition: all linear 0.5s;
+    padding: 4px;
+}
+.prices_eye_tree a:hover i{
+    color: #f5f8f5;
+    background-color: #266d40;
+    border-radius: 5px;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background-image: url(../img/family-child-planting-tree.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 650px;
+}
+#banner::before{
+    background-color: rgba(57, 108, 67, 0.52);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    content: '';
+}
+.banner_heading_section{
+    margin-top: 200px;
+}
+.banner_heading h1{
+    line-height: 82px;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_heading{
+    margin-top: 72px;
+}
+.about_heading h2{
+    color: #266d40;
+    font-weight: bold;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+.about_paragraph {
+    margin-top: 32px;
+}
+.about_paragraph p{
+    margin: auto;
+    color: #266d40;
+    font-size: 18px;
+    width: 483px;
+}
+.about_section_part{
+    margin-top: 82px;
+}
+.about_tribute_section{
+   height: 342px;
+    background-color: #266d40;
+}
+.about_tribute_content{
+     padding: 52px;
+}
+.about_tribute_paragraph{
+    margin-top: 20px;
+}
+.about_tribute_paragraph p{
+    color: #fff;
+    font-size: 16px;
+}
+.about_tribute_heading{
+    margin-top: 13px;
+}
+.about_tribute_heading h2{
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+}
+.about_tribute_link_section{
+    margin-top: 42px;
+}
+/*
+.about_tribute_Start_link{
+    width: 60%;
+}*/
+.about_tribute_Start_link a{
+  /*  width: 60%;*/
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 13px;
+    border: 1px solid #fff;
+}
+
+.about_tribute_works_link{
+    margin-left: 13px;
+}
+.about_tribute_works_link  a{
+  /*  width: 50%;*/
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all linear 0.5s;
+}
+.about_tribute_works_link:hover a{
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+}
+.about_working_picture img{
+    height: 342px;
+    width: 100%;
+}
+/*//About Section CSS End*/
+/*Features Section CSS Start*/
+.tree_image_border_section_part{
+    margin-top: 62px;
+}
+.tree_image_border{
+    margin-left: 12px;
+    width: 32%;
+    background-color: #f5f8f5;
+    margin-top: 62px;
+    }
+.border{
+    margin-top: 162px;
+}
+.tree_image{
+    padding: 0px;
+   position: relative;
+    cursor: pointer;
+}
+
+.tree_proces_overlay_hover{
+   height: 482px;
+  background-color: #f8faf9;
+  position: absolute;
+  transition: all linear 0.5s;
+  inset: 0;
+visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+
+.tree_image:hover .tree_proces_overlay_hover{
+    visibility: visible;
+    opacity: 1;
+}
+.tree_process_img_content{
+    padding: 0;
+}
+.tree_process_content{
+    margin-top: 20px;
+}
+.tree_process_heading h4{
+    font-weight: bold;
+    color: #266d40;
+}
+.tree_process_paragraph p{
+    font-size: 11px;
+    width: 243px;
+    margin: auto;
+    color: #266d40;
+}
+.tree_process_pricess_link_section_part{
+    margin-top: 32px;
+   
+}
+.tree_prices_numbers p{
+    color: #266d40;
+    
+}
+.tree_process_details_link a{
+    padding: 7px;
+    color: #266d40;
+    border: 1px solid #266d40;
+    transition: all linear 0.5s;
+}
+.tree_process_details_link:hover a{
+    border: 2px solid #266d40;   
+}
+.tree_process_order a{
+    color: #266d40;
+    text-transform: capitalize;
+    transition: all linear 0.5s;
+}
+.tree_process_order:hover a{
+    border-bottom: 1px solid #266d40;
+    display: inline-block;
+}
+/*//Features Section CSS End*/
+/*Blog Section CSS Start*/
+.blog_section_part{
+    margin-top: 82px;
+}
+.tree_bloging_image_content_section{
+   margin:  42px;
+    background-color: #f8faf9;
+}
+.tree_image_bloging img{
+    width: 100%;
+    height: 224px;
+}
+.tree_bloging_wriiten_content{
+    padding: 7px;
+}
+.tree_image_heading_bloging{
+    margin-top: 12px;
+}
+.tree_image_heading_bloging h2{
+    color: #266d40;
+    font-weight: bold;
+}
+.tree_bloging_paragraph{
+    margin-top: 9px;
+}
+.tree_bloging_paragraph p{
+    color: #266d40;
+    text-align: justify;
+}
+.tree_bloging_reading_More{
+    margin-top: 32px;
+}
+.tree_bloging_reading_More a{
+    color: #266d40;
+    border: 1px solid #266d40;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all linear 0.5s;
+    padding: 8px;
+}
+.tree_bloging_reading_More:hover a{
+    color: #fff;
+    border-radius: 8px;
+    background-color: #266d40;
+    border: none;
+}
+/*//Blog Section CSS End*/
+/*Contact Section CSS Start*/
+#contact {
+    margin-top: 72px;
+}
+
+.contact_sections_form {
+    background-color: #266d40;
+    margin-top: 67px;
+    height: 650px;
+}
+.contact_form {
+    margin-top: 78px;
+}
+.contact_name_form input {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8faf9;
+    font-size: 16px;
+   color: #fff;
+   width: 668px;
+   /*padding-left: 303px;*/
+  padding-bottom: 30px;
+}
+.contact_name_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form {
+    margin-top: 42px;
+}
+.contact_email_form input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.contact_email_form input {
+    /*padding-left: 270px;*/
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8faf9;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #fff;
+   width: 668px;
+}
+.contact_message_form {
+    margin-top: 42px;
+}
+.contact_message_form textarea {
+   text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #f8faf9;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #fff;
+   width: 818px;
+}
+.contact_message_form textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button {
+    margin-top: 56px;
+    
+}
+.submit_button button { color: #0b1016;
+    background-color: #cfc91d;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 13px 17px;
+}
+/*//Contact Section CSS End */
+/*Last Section CSS Start */.last_section_content p {Font-Size: 12px;
+    font-weight: bold;
+    color: #266d40;
+}
+#last_section {
+    background-color: #fff;
+    height: 33px;
+ }
+ .last_section_content {
+     margin-top: 9px;
+ }
+ /*//Last Section CSS End */
+}
+
+/*xxl*/
+@media (min-width:1400px) {}
+
+
+
+
